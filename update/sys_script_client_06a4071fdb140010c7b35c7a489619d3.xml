@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Assign rating to the employee based on the number of hours worked automatically.</description>
+        <field>sys_class_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>rating</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var hours_worked = g_form.getValue("u_integer_3");
+	var days_worked = g_form.getValue("u_integer_4");
+	var total_work = hours_worked * days_worked;
+	var fullname = g_form.getValue("u_string_1") + " " + g_form.getValue("u_string_2");
+	var comment = "";
+	
+	g_form.setValue("u_string_3" , fullname , "");
+	g_form.setValue("u_integer_6" , total_work , "");
+	/*if (hours_worked > 8)
+		{
+			//if(g_form.getValue("u_integer_3") > 8)
+			g_form.setValue("u_integer_5" , "4" , "3");
+		}
+	else if (g_form.getValue("u_integer_3") < 8)
+		{
+			g_form.setValue("u_integer_5" , "2" , "3");
+		}
+	//else if (u_integer) add later */
+	
+	if(total_work >= 50)
+		{
+			g_form.setValue("u_integer_5" , "5" , "3");
+		}
+	if(total_work >= 40 && total_work < 50)
+		{
+			g_form.setValue("u_integer_5" , "4" , "3");
+		}
+	if (total_work < 40 && total_work >= 25)
+		{
+			g_form.setValue("u_integer_5" , "2" , "3");
+		}
+	if (total_work < 25)
+		{
+			g_form.setValue("u_integer_5" , "1" , "3");
+		}
+	
+	
+	if(g_form.getValue("u_integer_5") == "5")
+		{
+			comment = "Exceptional Performance";
+		}
+	if(g_form.getValue("u_integer_5") == "4")
+		{
+			comment = "Good Performance";
+		}
+	
+	if(g_form.getValue("u_integer_5") == "2")
+		{
+			comment = "Bad Performance";
+		}
+	if(g_form.getValue("u_integer_5") == "1")
+		{
+			comment = "To be put under probation";
+		}
+	//if(g_form.getValue("u_integer_5")>8)
+		//{
+			//comment="Bonus of Rs.1000 applicable";
+		//}
+	g_form.addInfoMessage(comment);
+	
+	
+	  
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-10 13:59:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>06a4071fdb140010c7b35c7a489619d3</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>rating</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PerformanceManagement" source="x_358003_performan">b9b259b6db5a3300c7b35c7a489619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PerformanceManagement">b9b259b6db5a3300c7b35c7a489619cf</sys_scope>
+        <sys_update_name>sys_script_client_06a4071fdb140010c7b35c7a489619d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-02 07:02:27</sys_updated_on>
+        <table>x_358003_performan_employee</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

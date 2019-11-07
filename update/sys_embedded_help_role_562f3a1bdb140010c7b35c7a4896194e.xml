@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_358003_performan.employee_user" name="x_358003_performan.employee_user">162f3a1bdb140010c7b35c7a4896194b</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-10 13:29:37</sys_created_on>
+        <sys_id>562f3a1bdb140010c7b35c7a4896194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>162f3a1bdb140010c7b35c7a4896194b</sys_name>
+        <sys_package display_value="PerformanceManagement" source="x_358003_performan">b9b259b6db5a3300c7b35c7a489619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PerformanceManagement">b9b259b6db5a3300c7b35c7a489619cf</sys_scope>
+        <sys_update_name>sys_embedded_help_role_562f3a1bdb140010c7b35c7a4896194e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-10 13:29:37</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

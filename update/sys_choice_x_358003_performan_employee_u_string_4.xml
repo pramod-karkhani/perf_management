@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_4" table="x_358003_performan_employee" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software Developer</label>
+            <language>en</language>
+            <name>x_358003_performan_employee</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-11 08:53:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>467987a7db9c0010c7b35c7a48961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-11 08:53:08</sys_updated_on>
+            <value>software developer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales</label>
+            <language>en</language>
+            <name>x_358003_performan_employee</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-11 08:53:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c67987a7db9c0010c7b35c7a48961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-11 08:53:08</sys_updated_on>
+            <value>sales</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accounting</label>
+            <language>en</language>
+            <name>x_358003_performan_employee</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-13 18:25:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bbf5f18dbe88010c7b35c7a48961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-13 18:25:53</sys_updated_on>
+            <value>accounting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manager</label>
+            <language>en</language>
+            <name>x_358003_performan_employee</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-13 18:25:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bbf5f18dbe88010c7b35c7a48961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-13 18:25:53</sys_updated_on>
+            <value>manager</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_4</element>
+            <name>x_358003_performan_employee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-11 08:53:08</sys_created_on>
+            <sys_id>ce7987a7db9c0010c7b35c7a48961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_string_4</sys_name>
+            <sys_package display_value="PerformanceManagement" source="x_358003_performan">b9b259b6db5a3300c7b35c7a489619cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PerformanceManagement">b9b259b6db5a3300c7b35c7a489619cf</sys_scope>
+            <sys_update_name>sys_choice_x_358003_performan_employee_u_string_4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-11 08:53:08</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_string_3" label="Full Name" language="en" table="x_358003_performan_employee">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_3</element>
+            <help/>
+            <hint/>
+            <label>Full Name</label>
+            <language>en</language>
+            <name>x_358003_performan_employee</name>
+            <plural>Full Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-10 17:08:59</sys_created_on>
+            <sys_id>3f51331bdb940010c7b35c7a48961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Full Name</sys_name>
+            <sys_package display_value="PerformanceManagement" source="x_358003_performan">b9b259b6db5a3300c7b35c7a489619cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PerformanceManagement">b9b259b6db5a3300c7b35c7a489619cf</sys_scope>
+            <sys_update_name>sys_documentation_x_358003_performan_employee_u_string_3_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-10 17:08:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

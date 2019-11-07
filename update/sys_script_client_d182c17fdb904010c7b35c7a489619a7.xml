@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_string_4</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SetVisibility</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   //if (isLoading || newValue === '') {
+   //   return;
+  // }
+	
+	var state = g_form.getValue("u_string_4");
+	if(state == "sales")
+		{
+			g_form.setSectionDisplay("devperformance" , false);
+			g_form.setSectionDisplay("salesperformance" , true);
+			g_form.setSectionDisplay("accountingperformance" , false);
+			g_form.setSectionDisplay("managerperformance" , false);
+			//g_form.setDisabled("u_integer_1");
+			//g_form.setDisabled("u_integer_2");
+			//g_form.addInfoMessage("Hey sales");
+			
+		}
+	else if (state == "software developer")
+		{
+			g_form.setSectionDisplay("devperformance" , true);
+			g_form.setSectionDisplay("salesperformance" , false);
+			g_form.setSectionDisplay("accountingperformance" , false);
+			g_form.setSectionDisplay("managerperformance" , false);
+			//g_form.setDisabled("u_integer_7");
+			//g_form.setDisabled("u_integer_8");
+		}
+	else if (state == "accounting")
+		{
+			g_form.setSectionDisplay("accountingperformance" , true);
+			g_form.setSectionDisplay("salesperformance" , false);
+			g_form.setSectionDisplay("devperformance" , false);
+			g_form.setSectionDisplay("managerperformance" , false);
+			//g_form.setDisabled("u_integer_7");
+			//g_form.setDisabled("u_integer_8");
+		}
+	else if (state == "manager")
+		{
+			g_form.setSectionDisplay("managerperformance" , true);
+			g_form.setSectionDisplay("salesperformance" , false);
+			g_form.setSectionDisplay("devperformance" , false);
+			g_form.setSectionDisplay("accountingperformance" , false);
+			
+		}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-11 17:49:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d182c17fdb904010c7b35c7a489619a7</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>SetVisibility</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PerformanceManagement" source="x_358003_performan">b9b259b6db5a3300c7b35c7a489619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PerformanceManagement">b9b259b6db5a3300c7b35c7a489619cf</sys_scope>
+        <sys_update_name>sys_script_client_d182c17fdb904010c7b35c7a489619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-22 17:18:01</sys_updated_on>
+        <table>x_358003_performan_employee</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

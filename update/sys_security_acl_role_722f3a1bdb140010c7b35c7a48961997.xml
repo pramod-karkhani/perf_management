@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-10 13:29:38</sys_created_on>
+        <sys_id>722f3a1bdb140010c7b35c7a48961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_358003_performan_employee.x_358003_performan.employee_user</sys_name>
+        <sys_package display_value="PerformanceManagement" source="x_358003_performan">b9b259b6db5a3300c7b35c7a489619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PerformanceManagement">b9b259b6db5a3300c7b35c7a489619cf</sys_scope>
+        <sys_security_acl display_value="x_358003_performan_employee">322f3a1bdb140010c7b35c7a48961994</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_722f3a1bdb140010c7b35c7a48961997</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-10 13:29:38</sys_updated_on>
+        <sys_user_role display_value="x_358003_performan.employee_user" name="x_358003_performan.employee_user">162f3a1bdb140010c7b35c7a4896194b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f751ffd7db940010c7b35c7a48961959" sys_domain="global" table="x_358003_performan_employee" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-13 16:21:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6238bd4dba88010c7b35c7a489619c0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_358003_performan_employee" name="x_358003_performan_employee" sys_domain="global" view="Default view">f751ffd7db940010c7b35c7a48961959</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_358003_performan_employee" sys_domain="global" view="Default view">9e238bd4dba88010c7b35c7a4896192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-13 16:21:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-10 17:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b351ffd7db940010c7b35c7a4896195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_358003_performan_employee" name="x_358003_performan_employee" sys_domain="global" view="Default view">f751ffd7db940010c7b35c7a48961959</sys_ui_form>
+            <sys_ui_section caption="Performance" display_value="Performance" name="x_358003_performan_employee" sys_domain="global" view="Default view">3b51ffd7db940010c7b35c7a48961958</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-10 17:08:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-11 15:30:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb44a4fbdb504010c7b35c7a48961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_358003_performan_employee" name="x_358003_performan_employee" sys_domain="global" view="Default view">f751ffd7db940010c7b35c7a48961959</sys_ui_form>
+            <sys_ui_section caption="DevPerformance" display_value="DevPerformance" name="x_358003_performan_employee" sys_domain="global" view="Default view">6744a4fbdb504010c7b35c7a48961912</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-11 15:30:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-11 15:30:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6344a4fbdb504010c7b35c7a48961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_358003_performan_employee" name="x_358003_performan_employee" sys_domain="global" view="Default view">f751ffd7db940010c7b35c7a48961959</sys_ui_form>
+            <sys_ui_section caption="SalesPerformance" display_value="SalesPerformance" name="x_358003_performan_employee" sys_domain="global" view="Default view">6344a4fbdb504010c7b35c7a48961913</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-11 15:30:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-13 19:13:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fbae7dcdbe88010c7b35c7a4896192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_358003_performan_employee" name="x_358003_performan_employee" sys_domain="global" view="Default view">f751ffd7db940010c7b35c7a48961959</sys_ui_form>
+            <sys_ui_section caption="AccountingPerformance" display_value="AccountingPerformance" name="x_358003_performan_employee" sys_domain="global" view="Default view">fbba67dcdbe88010c7b35c7a489619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-13 19:13:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-13 19:13:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37bae7dcdbe88010c7b35c7a48961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_358003_performan_employee" name="x_358003_performan_employee" sys_domain="global" view="Default view">f751ffd7db940010c7b35c7a48961959</sys_ui_form>
+            <sys_ui_section caption="ManagerPerformance" display_value="ManagerPerformance" name="x_358003_performan_employee" sys_domain="global" view="Default view">f7ba67dcdbe88010c7b35c7a489619bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-13 19:13:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_358003_performan_employee</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-10 17:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f751ffd7db940010c7b35c7a48961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_358003_performan_employee</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PerformanceManagement" source="x_358003_performan">b9b259b6db5a3300c7b35c7a489619cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PerformanceManagement">b9b259b6db5a3300c7b35c7a489619cf</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f751ffd7db940010c7b35c7a48961959</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-10 17:08:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

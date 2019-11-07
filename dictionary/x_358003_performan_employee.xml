@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee" max_length="40" name="x_358003_performan_employee" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Emp!D" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Bonus Applicable" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Bonus Application" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Tasks assigned" max_length="40" name="u_integer_1" type="integer"/>
+        <element label="teams managed" max_length="40" name="u_integer_10" type="integer"/>
+        <element label="Tasks completed" max_length="40" name="u_integer_2" type="integer"/>
+        <element default="8" label="Hours Worked" max_length="40" name="u_integer_3" type="integer"/>
+        <element default="5" label="Days Worked" max_length="40" name="u_integer_4" type="integer"/>
+        <element default="3" label="Rating" max_length="40" name="u_integer_5" read_only="true" type="integer"/>
+        <element label="Total hours worked" max_length="40" name="u_integer_6" read_only="true" type="integer"/>
+        <element label="Target Sales" max_length="40" name="u_integer_7" type="integer"/>
+        <element label="Actual Sales" max_length="40" name="u_integer_8" type="integer"/>
+        <element label="Accuracy" max_length="40" name="u_integer_9" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Full Name" max_length="40" name="u_string_3" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="software developer" label="Department" max_length="40" name="u_string_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Software Developer" sequence="0" value="software developer"/>
+                <element inactive_on_update="false" label="Sales" sequence="1" value="sales"/>
+                <element inactive_on_update="false" label="Accounting" sequence="2" value="accounting"/>
+                <element inactive_on_update="false" label="Manager" sequence="3" value="manager"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

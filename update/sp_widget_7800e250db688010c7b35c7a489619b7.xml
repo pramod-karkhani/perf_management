@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+input[type=button] {
+    width: 4em;  height: 3em;
+}
+input[type=reset] {
+    width: 4em;  height: 3em;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>login</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Login</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-13 13:47:27</sys_created_on>
+        <sys_id>7800e250db688010c7b35c7a489619b7</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="PerformanceManagement" source="x_358003_performan">b9b259b6db5a3300c7b35c7a489619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PerformanceManagement">b9b259b6db5a3300c7b35c7a489619cf</sys_scope>
+        <sys_update_name>sp_widget_7800e250db688010c7b35c7a489619b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-31 05:59:42</sys_updated_on>
+        <template><![CDATA[    <html>
+    <head>
+    <h1 style="font-family:Calibri;text-align=center";font-size:20pt;
+    color:#00FF00;>
+      Welcome! 
+      </h1>
+      <h2>
+        Please enter details to continue.
+      </h2>
+    </head>
+    <body>
+    <h1 style="font-family:Calibri;text-align=center;font-size:100pt;
+    color:#00FF00">
+    </h1>
+    <form name="login">
+    Username<input type="text" name="userid"/>
+    Password<input type="password" name="pswrd"/>
+    <input type="button" onclick="check(this.form)" value="Login" style="background-color:green; border-color:black; color:white;margin=10px"/>
+    <input type="reset" value="Cancel" style="background-color:red; border-color:black; color:white;margin=10px"/>
+    <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      </form>
+    <script language="javascript">
+    function check(form)/*function to check userid & password*/
+    {
+     /*the following code checkes whether the entered userid and password are matching*/
+     if(form.userid.value == "admin" && form.pswrd.value == "Pramod@1998")
+      {
+        window.open('https://dev84485.service-now.com/nav_to.do?uri=%2Fhome.do%3Fsysparm_userpref_homepage%3D61f2bd02db313300c7b35c7a489619fd')/*opens the target page while Id & password matches*/
+      }
+     else
+     {
+       alert("Error Password or Username")/*displays error message*/
+      }
+    }
+    </script>
+    </body>
+    </html>
+
+]]></template>
+    </sp_widget>
+</record_update>
